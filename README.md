@@ -5,6 +5,13 @@
 - I will add the code once it will be deployed
 
 
+<br>
+
+#### Stack:
+
+react | redux  | mysql | stripe | apache |  strapi | redux-toolkit | framer-motion
+
+
 https://user-images.githubusercontent.com/58809268/232027103-14dadce3-7433-4857-8f3d-b00156ccc992.mp4
 
 

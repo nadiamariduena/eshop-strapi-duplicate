@@ -1,0 +1,59 @@
+.featuredProducts {
+  padding: 10px 0;
+  min-height: 70vh;
+  // background-color: lavender;
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // h1 {
+    //   margin: 150px 0 70px 0;
+    //   font-weight: 500;
+    //   font-size: calc(5px + 1vmin);
+    //   text-align: center;
+    //   text-transform: capitalize;
+    //   color: rgb(185, 185, 185);
+    // }
+    .headlines-featuredProducts {
+      margin-top: 120px;
+      display: flex;
+
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+
+      // background-color: pink;
+      gap: 20px;
+      h2 {
+        //
+        margin-top: 20px;
+        font-weight: 500;
+        letter-spacing: -2px;
+        font-size: calc(78px + 1vmin);
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .title-year-collection {
+        text-transform: uppercase;
+        // color: red;
+        letter-spacing: -3px;
+        font-weight: 400;
+        font-size: calc(48px + 1vmin);
+      }
+    }
+
+    p {
+      //   flex: 3;
+      color: gray;
+    }
+  }
+
+  .bottom {
+    padding: 100px 0;
+    // background-color: green;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}

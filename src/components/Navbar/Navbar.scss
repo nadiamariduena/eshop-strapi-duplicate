@@ -1,0 +1,140 @@
+.navbar {
+  display: none;
+  padding: 0 0 0.1vh 0;
+  margin: 0;
+  min-height: 3vh;
+  // background-color: lavender;
+
+  .wrapper {
+    height: 100%;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .item {
+      display: flex;
+      align-items: center;
+    }
+    //2623 ---------
+    .center {
+      .logo {
+        font-size: calc(18px + 1.1vmin);
+        color: #111111;
+        font-weight: 500;
+      }
+    }
+    // ---------
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        gap: 25px;
+
+        .cartIcon {
+          position: relative;
+          span {
+            position: absolute;
+            top: -6px;
+            right: -10px;
+            //
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            //
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 100px;
+            background-color: rgb(254, 141, 232);
+            color: white;
+          }
+        }
+      }
+    }
+    //
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .navbar {
+    display: block;
+    padding: 0 0 0.1vh 0;
+    margin: 0;
+    min-height: 3vh;
+    // background-color: lavender;
+
+    .wrapper {
+      height: 100%;
+      padding: 0px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .item {
+        display: flex;
+        align-items: center;
+      }
+      //2623 ---------
+      .center {
+        .logo {
+          font-size: calc(18px + 1.1vmin);
+          color: #111111;
+          font-weight: 500;
+        }
+      }
+      // ---------
+
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        .icons {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          gap: 25px;
+
+          .cartIcon {
+            position: relative;
+            span {
+              position: absolute;
+              top: -6px;
+              right: -10px;
+              //
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              //
+              font-size: 12px;
+              width: 20px;
+              height: 20px;
+              border-radius: 100px;
+              background-color: rgba(255, 183, 183, 0.77);
+              color: rgb(7, 7, 7);
+            }
+          }
+        }
+      }
+      //
+    }
+  }
+}

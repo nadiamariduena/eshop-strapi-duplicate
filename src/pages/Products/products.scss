@@ -1,0 +1,83 @@
+.products {
+  padding: 30px 50px;
+  display: flex;
+
+  .left {
+    // width size
+    flex: 1;
+    // sticky effect on the row with the inputs
+    position: sticky;
+    height: 100%;
+    top: 50px;
+
+    .filterItem {
+      margin-bottom: 30px;
+
+      h2 {
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      .inputItem {
+        accent-color: #0a0a0a;
+        margin-bottom: 10px;
+        label {
+          margin-left: 10px;
+        }
+
+        //
+        //https://stackoverflow.com/questions/18389224/how-to-style-html5-range-input-to-have-different-color-before-and-after-slider
+        #myInput {
+          margin: 0 5px;
+          background: rgb(252, 252, 252);
+          border: solid 1px #141414;
+          border-radius: 8px;
+          height: 7px;
+          //   width: 356px;
+          accent-color: #eaff00;
+          outline: none;
+          transition: background 450ms ease-in;
+          -webkit-appearance: none;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+          width: 6px;
+          -webkit-appearance: none;
+          height: 12px;
+          background: rgb(8, 8, 8);
+          border-radius: 2px;
+        }
+
+        //
+        #asc,
+        #desc {
+          accent-color: #0a0a0a;
+        }
+
+        //
+      }
+    }
+  }
+
+  .right {
+    // width size
+    flex: 3;
+    .hero-catProductsPage {
+      height: 70vh;
+
+      .hero-catProductsPage-box {
+        overflow-y: hidden;
+        //https://developer.mozilla.org/en-US/docs/Web/CSS/object-position
+        width: 100%;
+        height: 100%;
+
+        //
+        img {
+          object-position: 0 -200px;
+          width: 100%;
+          min-height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

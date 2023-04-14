@@ -1,0 +1,121 @@
+@media screen and (min-device-width: 280px) and (max-device-width: 968px) {
+  //
+  // FOR THE CATEGORIES, dont do it here, you ned to create some squares like you can see it in the zalando example, it s not an hamburger but squares on top of the images with the products, also solve the bug with the SORT of the products or remove it, as it causes the products not showing until you click on the radial asc or desc
+  //
+  .list {
+    padding: 100px 0;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    //
+    h5 {
+      margin: 20px 0 10px 0;
+      font-weight: 500;
+      font-size: calc(5px + 1vmin);
+      text-align: center;
+      text-transform: capitalize;
+      color: rgba(185, 185, 185, 0.604);
+    }
+    //
+    h3 {
+      //
+      margin: 20px 0 40px 0;
+      font-weight: 500;
+      letter-spacing: -2px;
+      font-size: calc(78px + 1vmin);
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(16, 16, 16);
+    }
+
+    //
+    //
+    .wrapper-product-list-bar {
+      // background-color: pink;
+      .left-product-list-bar {
+        margin: 20px auto 70px auto;
+        // background-color: rgb(232, 232, 232);
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        a {
+          background-color: white;
+          font-size: calc(3px + 1vmin);
+        }
+      }
+    }
+
+    //
+    //
+    .cont-prodducts-list {
+      margin: 0 auto;
+      width: 80%;
+      grid-template-columns: repeat(3, 1fr);
+      display: grid;
+      grid-gap: 2em;
+    }
+  }
+}
+@media only screen and (min-width: 968px) {
+  .list {
+    padding: 100px 0;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    //
+    h5 {
+      margin: 20px 0 10px 0;
+      font-weight: 500;
+      font-size: calc(5px + 1vmin);
+      text-align: center;
+      text-transform: capitalize;
+      color: rgba(185, 185, 185, 0.604);
+    }
+    //
+    h3 {
+      //
+      margin: 20px 0 40px 0;
+      font-weight: 500;
+      letter-spacing: -2px;
+      font-size: calc(78px + 1vmin);
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(16, 16, 16);
+    }
+
+    //
+    //
+    .wrapper-product-list-bar {
+      // background-color: pink;
+      .left-product-list-bar {
+        margin: 20px auto 70px auto;
+        // background-color: rgb(232, 232, 232);
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        a {
+          background-color: white;
+          font-size: calc(3px + 1vmin);
+        }
+      }
+    }
+
+    //
+    //
+    .cont-prodducts-list {
+      margin: 0 auto;
+      width: 80%;
+      grid-template-columns: repeat(3, 1fr);
+      display: grid;
+      grid-gap: 2em;
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 - The code in this version is incomplete
 
-- I will add the code, once it will be deployed
+- I will add the code once it will be deployed
 
 
 https://user-images.githubusercontent.com/58809268/232027103-14dadce3-7433-4857-8f3d-b00156ccc992.mp4
